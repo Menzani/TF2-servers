@@ -33,8 +33,8 @@ hr {
     margin-bottom: 18px;
 }
 
-#highlander {
-    margin-right: 25px;
+#notes {
+    margin-top: 25px;
 }
 
 #benefits {
@@ -52,8 +52,12 @@ hr {
     width: 240px;
 }
 
-.card.thick, .card.original, .button.green, .button.blue {
+.card.thick, .button.green, .button.blue {
     margin-right: 0;
+}
+
+.card.original {
+    margin-right: 25px;
 }
 
 .price {
@@ -62,6 +66,10 @@ hr {
 
 .price > span {
     color: #929292;
+}
+
+hr.small {
+    width: 14%;
 }
 
 .card.thin {

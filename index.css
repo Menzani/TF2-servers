@@ -33,8 +33,17 @@ hr {
     margin-bottom: 18px;
 }
 
+#mumbleWhy {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#mumbleTip {
+    display: none;
+}
+
 #notes {
-    margin-top: 25px;
+    margin-top: 5px;
 }
 
 #benefits {
@@ -52,12 +61,14 @@ hr {
     width: 240px;
 }
 
-.card.thick, .button.green, .button.blue {
-    margin-right: 0;
+.last {
+    margin-right: 0 !important;
 }
 
 .card.original {
     margin-right: 25px;
+    margin-bottom: 25px;
+    vertical-align: bottom;
 }
 
 .price {

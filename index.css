@@ -4,7 +4,6 @@ body {
     font-family: "Fira Sans", sans-serif;
     text-align: center;
     background-color: #f5f5f5;
-    padding-bottom: 250px;
 }
 
 p {
@@ -37,8 +36,6 @@ hr {
 }
 
 #benefits {
-    font-size: 16px;
-    font-style: italic;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -49,6 +46,11 @@ hr {
 
 #serverName {
     width: 240px;
+}
+
+#help {
+    margin-top: 120px;
+    margin-bottom: 130px;
 }
 
 .last {
@@ -71,6 +73,11 @@ hr {
 
 hr.small {
     width: 14%;
+}
+
+.highlighted {
+    font-size: 16px;
+    font-style: italic;
 }
 
 .card.thin {

@@ -22,13 +22,8 @@ hr {
     margin-bottom: 18px;
 }
 
-#mumbleWhy {
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-#mumbleTip {
-    display: none;
+#pro {
+    text-align: left;
 }
 
 #notes {
@@ -60,7 +55,7 @@ hr {
 .card.original {
     margin-right: 25px;
     margin-bottom: 25px;
-    vertical-align: bottom;
+    vertical-align: middle;
 }
 
 .price {
@@ -69,6 +64,15 @@ hr {
 
 .price > span {
     color: #929292;
+}
+
+.why {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.tip {
+    display: none;
 }
 
 hr.small {

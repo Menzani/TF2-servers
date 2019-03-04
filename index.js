@@ -15,3 +15,9 @@ function displayMumbleTip(mumbleWhy) {
     const mumbleTip = document.getElementById("mumbleTip")
     mumbleTip.style.display = "block"
 }
+
+function displayTickrateTip(tickrateWhy) {
+    tickrateWhy.style.display = "none"
+    const tickrateTip = document.getElementById("tickrateTip")
+    tickrateTip.style.display = "block"
+}

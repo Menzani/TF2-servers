@@ -76,6 +76,25 @@
 </div>
 <br>
 <div class="card original">
+    <h3>Pro</h3>
+    <p id="pro" class="price">
+        <span>+</span>2.99€<span>/month – 6s</span>
+        <br>
+        <span>+</span>4.49€<span>/month – Highlander</span>
+        <br>
+        <span>+</span>5.99€<span>/month – Pub</span>
+    </p>
+
+    133 tickrate
+
+    <p class="why" onclick="displayTickrateTip(this)">Why should I care?</p>
+    <p id="tickrateTip" class="tip">
+        Because rocket jumps will be more precise, hit registration<br>
+        will improve, lerp can be set down to 10ms, and everything<br>
+        will feel smoother, especially on 120+ hz monitors.
+    </p>
+</div>
+<div class="card original">
     <h3>Customized</h3>
 
     ? slots
@@ -95,15 +114,14 @@
 
     2x slots
     <hr>
-    124.8 Kb/s
+    140 Kb/s
 
-    <p id="mumbleWhy" onclick="displayMumbleTip(this)">Why use Mumble?</p>
-    <p id="mumbleTip">
+    <p class="why" onclick="displayMumbleTip(this)">Why use Mumble?</p>
+    <p id="mumbleTip" class="tip">
         Did you know that you will hear people before you can see them?<br>
         The voice buffer in mumble is 10ms by default. The TF2 client<br>
-        buffers game state like player movements for 100ms by default,<br>
-        and even if you change it to the minimum, which is 15.1ms,<br>
-        that is still a 5ms higher delay!
+        buffers game state like player movements for 100ms by default, and<br>
+        even if you change it to a little 15.1ms, that is still a 5ms higher delay!
     </p>
 </div>
 
@@ -120,7 +138,7 @@ Custom maps
 <hr class="small">
 Private FastDL
 <hr class="small">
-<abbr title="https://tf2lobby.eu/27020&#010;https://tf2lobby.eu/myserver/tv&#010;https://tf2lobby.eu/myserver/mumble">
+<abbr title="https://tf2lobby.eu/27020&#010;https://tf2lobby.eu/myserver/tv&#010;https://tf2lobby.eu/myserver/voice&#010;&#010;https://proland.eu/play">
     Instant-join links
 </abbr>
 

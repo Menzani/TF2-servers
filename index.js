@@ -1,5 +1,12 @@
 "use strict"
 
+function makeOrder(packageName, event) {
+    const ref = new URLSearchParams(window.location.search).get("ref")
+    const refString = ref ? "%20[referred%20by%20" + ref + "]" : ""
+    window.open("mailto:sales@fmenza.it?subject=TF2%20server:%20" + packageName + refString)
+    event.preventDefault()
+}
+
 function openLobbyCreationVideo(video) {
     video.pause()
     video.style.visibility = "hidden"

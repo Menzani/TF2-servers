@@ -3,7 +3,7 @@
 function makeOrder(packageName, event) {
     const ref = new URLSearchParams(window.location.search).get("ref")
     const refString = ref ? "%20[referred%20by%20" + ref + "]" : ""
-    window.open("mailto:sales@fmenza.it?subject=TF2%20server:%20" + packageName + refString)
+    window.open("mailto:sales@tf2lobby.eu?subject=TF2%20server:%20" + packageName + refString)
     event.preventDefault()
 }
 

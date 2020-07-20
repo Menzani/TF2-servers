@@ -10,7 +10,7 @@ function makeOrder(packageName, event) {
 function openLobbyCreationVideo(video) {
     video.pause()
     video.style.visibility = "hidden"
-    window.open(isMp4Supported() ? "Lobby creation in 3 clicks" : "Lobby creation in 3 clicks!")
+    window.open(isMp4Supported() ? "assets/Lobby creation in 3 clicks.mp4" : "assets/Lobby creation in 3 clicks.webm")
 }
 
 function isMp4Supported() {
